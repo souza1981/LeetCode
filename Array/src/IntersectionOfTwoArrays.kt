@@ -1,6 +1,6 @@
 import java.util.*
 
-class IntersectionOfTwoArrays{
+class IntersectionOfTwoArraysKotlin{
     fun intersect(nums1: IntArray, nums2: IntArray): IntArray {
 /*
         var maiorArray = nums2
@@ -70,7 +70,7 @@ class IntersectionOfTwoArrays{
 }
 
 fun main(args: Array<String>) {
-    val solution = IntersectionOfTwoArrays()
+    val solution = IntersectionOfTwoArraysKotlin()
     //val numArray1 = intArrayOf(1,2,2,1)
     //val numArray2 = intArrayOf(2,2)
     val numArray1 = intArrayOf(54,93,21,73,84,60,18,62,59,89,83,89,25,39,41,55,78,27,65,82,94,61,12,38,76,5,35,6,51,48,61,0,47,60,84,9,13,28,38,21,55,37,4,67,64,86,45,33,41)

@@ -1,4 +1,4 @@
-class RotateArray {
+class RotateArrayKotlin {
     fun rotate(nums: IntArray, k: Int): Unit {
         if (nums.isEmpty()) return
         if (nums.size == k) return
@@ -23,7 +23,7 @@ class RotateArray {
 
 fun main(args: Array<String>) {
 
-    val rotateArray = RotateArray()
+    val rotateArray = RotateArrayKotlin()
     val numArray = intArrayOf(-1,-100,3,99)
     //val numArray = intArrayOf(1,2,3,4,5,6,7)
     rotateArray.rotate(numArray,5)
